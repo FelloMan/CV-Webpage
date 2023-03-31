@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Font-Awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!--Css file link-->
+    <link rel="stylesheet" href="Css/main.css">
+    <title>SUT21-Res-Website</title>
+    </head>
+    <body>
+        
+
+        <!--Header Start-->
+        <header class="header">
+            <a href="#" class="logo"><i class="fas fa-magic"></i>Design</a>
+            
+            <div class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href=#home>Home</a><li>
+                    <li><a href=#about>Info about Me</a><li>
+                    <li><a href=#service>My Talents</a><li>
+                    <li><a href=#portfolio>Portfolio</a><li>
+                    <li><a href=#erbjuda>What I Can Offer</a><li>
+                    <li><a href=#contact>Contact</a><li>
+                    <li><a href=#faq>FAQ</a><li>
+                </ul>
+            </nav>
+        </header>
+        <!--Header End-->
+
+
+        <!--Home Start--> <!-- Bytt till CV-->
+        <section id="home" class="home">
+            <h1 class="banner"> Hi And Welcome To Filip Oldins CV Webpage</h1>
+            
+            <a href="#about"><button>Get Started</button></a>
+
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+
+            <div class="fas fa-cog nut1"></div>
+            <div class="fas fa-cog nut2"></div>
+
+
+        </section>
+        <!--Home End-->
+
+
+        <!--About Start-->
+        <header class="header"></header>
+        <section id="about" class="about">
+            <h1 class="heading">Info Om Mig</h1>
+            <div class="row">
+                <div class="content">     
+                    <h3>Personal Information</h3>
+                    <p> I am 25 years old from Sweden. I am currently living in Åsa Kungsbacka with in a small cottage. </p>
+                    <a href="#"><button class="btn">Home </button></a>
+                </div>
+                <div class="content">
+                    <h3>Hobbies</h3>
+                    <p>My favourite things to do when im not working is playing video games or going for long walks in around where I live since there is alot of forested areas and very pretty coastal places to walk.</p>
+                    <a href="#service"><button class="btn">Next </button></a>
+                </div>
+                <div class="content">
+                    <h3>Previous Workplaces</h3>
+                    <p>Mailman 2016-2017</p>
+                    <p>Enterainment Assistant 2018-2019</p>
+                    <p>Chauffer Assistant Summer 2022</p>
+                    <a href="#service"><button class="btn">Next </button></a>
+                </div>
+                
+
+                
+                <div class="imgage">
+                    <img src="images/about-image.png" width="90%" height="90%">
+                </div>
+                
+            </div>
+
+        </section>
+        <!--About End-->
+
+        <!--Service Start-->
+        <section id="service" class="service"> 
+            <h1 class="heading">My Talents</h1>
+
+                <div class="row">
+               
+              
+                <div class="content">
+                    <h3>CSS</h3>
+                    <p> CSS is an area I am more than ready to work in and is among the strongest area I am trained in</p>
+                    <a href="#home"><button class="btn">Home</button></a>
+                </div>
+
+
+                    <div class="row">
+                    <div class="content">                      
+                        <h3>Web development</h3>
+                        <p>This is something that I find very interesting and know several areas within</p>                       
+                    </div>
+                    
+
+                    <div class="row">                     
+                        <div class="content">
+                            <h3>Database development </h3>
+                            <p> Like Css, this is an area that I am very adapted to and have several skills in</p>                            
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="content">
+                            <h3>Web Hosting</h3>
+                            <p>Being able to create and edit webpages is a skill I have very happy to learn since it opens up a very big world of opportunities.</p>
+                            <a href="#portfolio"><button class="btn">Next</button></a>
+                            
+                        </div>
+                       
+                    </div>
+
+                    <div class="row">
+                       
+
+             
+
+        </section>
+
+        <!--Service End-->
+
+        <!--My Portfolio Starts-->
+        <section id="portfolio" class="portfolio">
+            <h1 class="heading">Portfolio</h1>
+            <div class="row">
+
+                
+                 
+                <div class="content">       
+                    <h3>Bank Application Project</h3>
+                    <h2>2021</h2>
+                    <p>A C# console-program Bank System</p>
+                    <a href="#"><button class="btn">Home </button></a>
+                    <button data-opens="#modal">Project Info</button>
+                    
+
+                    <dialog class="modal" id="modal">
+                        <h2>Bank Project Info</h2>
+                        <p>I have been a part of a group were we created a online bank in wich users could go in and borrow and deposit money. They could create their own account and log in and out on their own accord.</p>
+                        <button class="button close-button">close</button>
+                      </dialog>
+                     
+                </div>
+                <div class="image">
+                    <img src="images/img1.png" width="20%" height="80%"></img>
+                </div>
+
+            </div>
+            
+            <div class="row">
+                <div class="content">       
+                    <h3>School Application Project</h3>
+                    <h2>2021</h2>
+                    <p>A Database and SQL Webapplication</p>
+                    <a href="#erbjuda"><button class="btn">Next</button></a>                      
+                    <button data-opens="#modal2">Project Info</button>
+
+                    <dialog class="modal" id="modal2">
+                        <h2>School Project Info</h2>
+                        <p>Me and some other classmates created a school project were we created a console application that enabled us to add both students and teacher into the application. We could add student information, who their teachers were and how many students each class
+                          had.</p>
+                        <button class="button close-button">close</button>
+                      </dialog>
+
+                </div>
+                <div class="image">
+                    <img src="images/img5.png" width="20%" height="80%"></img>
+                </div>
+     
+            </div>
+            <div class="row">
+                <div class="content">       
+                    <h3>ASP.NET Application Project</h3>
+                    <h2>2022</h2>
+                    <p>A ASP.NET Webapplication Webshop</p>
+                    <a href="#erbjuda"><button class="btn">Next </button></a> 
+                    <button data-opens="#modal3">Project Info</button>
+
+                    <dialog class="modal" id="modal3">
+                        <h2>ASP.NET Project Info</h2>
+                        <p>We were tasked to build a administration application for a webshop, it was suppose to be a create with a seperate admin functionality for the website. Was a very interesting webpage that me and my group created, we used HTML, CSS and JavaScript for
+                          the project.</p>
+                        <button class="button close-button">close</button>
+                      </dialog>
+                      
+                </div>
+                <div class="image">
+                    <img src="images/img3.png" width="20%" height="80%"></img>
+                </div>
+     
+
+
+
+
+            </div>
+                
+            
+                
+            
+            
+        </section>
+
+        <!--My Portfolio Ends-->
+
+        <!--What I Can Offer Starts-->
+        <section id="erbjuda" class="erbjuda">
+
+            <h1 class="heading">What I Can Offer</h1>
+
+        
+            <div class="row">
+                <div class="image">
+                    <img src="images/img1.png" width="20%" height="20%"></img>
+                </div>
+                <div class="content">
+                    <h3>Dedication</h3>
+                    <p> Being able to sit down and being able to give my work a professional and well developed effort is one my main purpose</p>
+                    <a href="#home"><button class="btn" >Home</button></a>                   
+                </div>
+
+                
+            <div class="row">
+                <div class="image">
+                    <img src="images/img2.png" width="20%" height="20%"></img>
+                </div>
+                <div class="content">
+                    <h3>Cooperation</h3>
+                    <p> Being able to work together with other people and being a good co-worker is someting I am more than capable to. </p>                   
+                </div>
+
+                
+            <div class="row">
+                <div class="image">
+                    <img src="images/img3.png" width="20%" height="20%"></img>
+                </div>
+                <div class="content">
+                    <h3>Learn</h3>
+                    <p> I am more than willing to learn more at my work because I want both learn and improve my skills</p>
+                    <a href="#contact"><button class="btn">Next</button></a>
+                </div>
+
+
+
+        </section>
+
+
+        <!--What I Can OfferEnds-->
+
+        <!--Contact Start-->
+
+        <section id="contact" class="contact">
+            <h1 class="heading">My Contact Och Social Media</h1>
+
+            <div class="row">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/hotmail.webp" width="10%" height="10%"></img>
+                    </div>
+                    <div class="info">
+                        <h3>Email</h3>
+                        <h1>filip0816@hotmail.com</h1>
+                        
+                        <div class="icons">
+                            <a href="#home"><button class="btn">Home</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            <div class="row">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/facebook.png" width="10%" height="10%"></img>
+                    </div>
+                    <div class="info">
+                        <h3>Facebook</h3>
+                        <h1>Filip Oldin</h1>
+                        <div class="icons">
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="images/Twitter.webp" width="10%" height="10%"></img>
+                    </div>
+                    <div class="info">
+                        <h3>Twitter</h3>
+                        <h1>Filip Oldin</h1>
+                        <div class="icons">
+                            <a href="#faq"><button class="btn">Next</button></a>
+                        </div>
+                    </div>
+                </div>
+
+           
+
+        </section>
+
+
+        <!--Contact End-->
+
+        <!--FAQ Starts-->
+
+        <section id="faq" class="faq">
+            <h1 class="heading">FAQ</h1>
+
+            <div class="row">
+                <div class="card">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Do I struggle learning new things?</h3>
+                        <span>Yes if I dont get a good introduction and really get the ropes at the beginning the dedication and inspiration can fall of.</span>
+                        <div class="icons">
+                            <a href="#" class="fab fa-Tacebook"></a>
+                            <a href="#" class="fab fa-Twitter"></a>
+                            <a href="#" class="fab fa-Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            <div class="row">
+                <div class="card">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>When do I work best?</h3>
+                        <span>I work at best starting around 9:00 am but can also continue working late around 11:00 PM</span>
+                        <div class="icons">
+                            <a href="#" class="fab fa-Tacebook"></a>
+                            <a href="#" class="fab fa-Twitter"></a>
+                            <a href="#" class="fab fa-Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Can you work overtime?</h3>
+                        <span>If the project needs the time to work more I can sit around and work extra hours but will expect overtime payments.</span>
+                        <div class="icons">
+                            <a href="#" class="fab fa-Tacebook"></a>
+                            <a href="#" class="fab fa-Twitter"></a>
+                            <a href="#" class="fab fa-Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                    
+                    <div class="info">
+                        
+                        <h3>Do you work best at the office or wokring from home/abroad?</h3>
+                        <span>Being able to met my co-workers is something I really like and being able to look through what others have done inorder to be up to speed with my work.</span>
+                        <span>Working from home is also a good working place since I do enjoy working my own hours,.</span>
+                        <div class="icons">
+                            <a href="#" class="fab fa-Tacebook"></a>
+                            <a href="#" class="fab fa-Twitter"></a>
+                            <a href="#" class="fab fa-Instagram"></a>
+                            <a href="#home"><button class="btn">Home</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!--FAQ Ends-->
+
+        <!--jQuery Link-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--Script File Link-->
+        <script src="Js/main.js"></script>
+        <script src="Js/popup.js"></script>
+    </body>
+
+</html>
+
